@@ -6,3 +6,6 @@ The steps I followed to install Debian are here: https://www.schwabenlan.de/en/b
 
 ## Scripts
  - **monitorio.py** - Sets the LED to the default green colour causing it to flash when drive being accessed. Spins down the drive into low power mode after a period of inactivity and sets the LED to blue. When the drive is accessed again the drive spins up and the LED goes green. This should be run in the background via system init.
+
+## Config files
+ - **fstab** - Filesystem mounts with memory-only logging so as to avoid waking up the disk.
